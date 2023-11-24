@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/gropu_nav_main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/nav_candelar"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Calendario"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Calendario"/>
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Localizacion"/>
+    </group>
+    <group
+        android:id="@+id/nav_group_nav_system"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Configuracion"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="salir"/>
+    </group>
+</menu>

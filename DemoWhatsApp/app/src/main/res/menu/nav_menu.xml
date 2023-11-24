@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_sign_out"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="Salir"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/message"
+        android:title="Message"
+        android:icon="@android:drawable/stat_notify_chat"
+        app:showAsAction="always"
+        android:orderInCategory="3" />
+
+    <item android:id="@+id/Settings"
+        android:title="Ajustes"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/about"
+        android:title="Acerca de..."
+        app:showAsAction="never" />
+</menu>

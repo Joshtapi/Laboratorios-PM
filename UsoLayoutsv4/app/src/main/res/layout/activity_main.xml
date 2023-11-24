@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Título de la tabla -->
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="@string/alumno"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <!-- Título de la aplicación -->
+    <TableRow>
+        <TextView
+            android:id="@+id/tituloTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Mi aplicación"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <!-- Botón -->
+    <TableRow>
+        <Button
+            android:id="@+id/boton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Botón"
+            app:iconTint="@android:color/system_accent2_800" />
+    </TableRow>
+
+    <!-- Imagen -->
+    <TableRow>
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            app:srcCompat="@mipmap/logo_app_foreground" />
+    </TableRow>
+</TableLayout>

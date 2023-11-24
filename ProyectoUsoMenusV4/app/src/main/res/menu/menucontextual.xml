@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/nombre"
+        android:title="Ver nombre"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/carrera"
+        android:title="Ver carrera"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/semestre"
+        android:title="Ver semestre"
+        android:icon="@android:drawable/ic_menu_day"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/email"
+        android:title="Ver Email"
+        android:icon="@android:drawable/ic_dialog_email"
+        app:showAsAction="ifRoom"/>
+</menu>

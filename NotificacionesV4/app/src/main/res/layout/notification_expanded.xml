@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Vista personalizada para la notificación expandida -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Notificación"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Contenido de la notificación expandida"
+        android:textAlignment="center"
+        android:textColor="@color/background_color"
+        android:textSize="18sp" />
+
+    <!-- Vista personalizada para la imagen -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/notification_image"
+        app:srcCompat="@drawable/notification_image" />
+
+    <!-- Vista personalizada para el botón -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/primary_color"
+        android:text="Cerrar"
+        android:textColor="@android:color/white" />
+
+    <!-- Otras vistas personalizadas que desees agregar -->
+
+</LinearLayout>

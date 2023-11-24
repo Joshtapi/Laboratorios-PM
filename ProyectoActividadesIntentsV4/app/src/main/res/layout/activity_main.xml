@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="47dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="Estados de actividad"
+        android:textAlignment="center"
+        android:textColor="#FAF5F5"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/lblestado"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginStart="16dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:background="#E91E63"
+            android:gravity="center"
+            android:text="Ingrese un numero "
+            android:textAlignment="center"
+            android:textColor="#F3ECEC"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <EditText
+            android:id="@+id/txtnumero"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteY="231dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

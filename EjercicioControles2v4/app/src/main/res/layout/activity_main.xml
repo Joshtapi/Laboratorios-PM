@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#131619"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="394dp"
+            android:layout_height="56dp"
+            android:backgroundTint="#2F85CA"
+            android:text="Operaciones Aritmeticas"
+            android:textAlignment="center"
+            android:textColor="#1E73B6"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="137dp"
+            android:layout_height="34dp"
+            android:text="Primer valor:"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="68dp" />
+
+        <EditText
+            android:id="@+id/txtValor1"
+            android:layout_width="396dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textPersonName|numberDecimal"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="107dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="155dp"
+            android:layout_height="34dp"
+            android:text="Segundo valor:"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <EditText
+            android:id="@+id/txtValor2"
+            android:layout_width="400dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:inputType="textPersonName|numberDecimal"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="202dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="391dp"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioSuma"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textAlignment="viewStart"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="254dp" />
+
+            <RadioButton
+                android:id="@+id/radioResta"
+                android:layout_width="93dp"
+                android:layout_height="85dp"
+                android:text="-"
+                tools:layout_editor_absoluteX="136dp"
+                tools:layout_editor_absoluteY="254dp" />
+
+            <RadioButton
+                android:id="@+id/radioProducto"
+                android:layout_width="86dp"
+                android:layout_height="85dp"
+                android:text="x"
+                tools:layout_editor_absoluteX="216dp"
+                tools:layout_editor_absoluteY="254dp" />
+
+            <RadioButton
+                android:id="@+id/radioDivision"
+                android:layout_width="91dp"
+                android:layout_height="85dp"
+                android:text="/"
+                android:textAlignment="viewStart"
+                tools:layout_editor_absoluteX="300dp"
+                tools:layout_editor_absoluteY="254dp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="125dp"
+            android:layout_height="33dp"
+            android:text="Resultado:"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="313dp" />
+
+        <EditText
+            android:id="@+id/txtResultado"
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textColor="#F6F0F0"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="350dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

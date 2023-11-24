@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#254159"
+    android:outlineProvider="paddedBounds"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="894dp"
+        android:background="#697883"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/lbltitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D5581"
+            android:backgroundTint="#1EDCE3"
+            android:gravity="clip_vertical|center_horizontal"
+            android:text="Promedio"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese notas e las practicas:"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practica 1 :" />
+
+        <EditText
+            android:id="@+id/txtPract1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textColor="#100F0F" />
+
+        <TextView
+            android:id="@+id/lblNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practica 2 :" />
+
+        <EditText
+            android:id="@+id/txtPract2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#131313" />
+
+        <TextView
+            android:id="@+id/lblNota3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practica 3 :" />
+
+        <EditText
+            android:id="@+id/txtPract3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#070606" />
+
+        <TextView
+            android:id="@+id/lblNota4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practica 4 :" />
+
+        <EditText
+            android:id="@+id/txtPract4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#0C0909" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="385dp"
+            android:layout_height="37dp"
+            android:backgroundTint="#4557BC"
+            android:text="Calcular Promedio"
+            android:textColor="@android:color/white"
+            app:rippleColor="#2196F3" />
+
+        <TextView
+            android:id="@+id/lblresultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D5581"
+            android:backgroundTint="#1EDCE3"
+            android:text="Resultado :"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#090909"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtRespuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#0C0C0C" />
+
+        <TextView
+            android:id="@+id/lblLabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese notas de laboratorios :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtLab1"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:orientation="horizontal"
+            android:outlineProvider="paddedBounds"
+            android:textColor="#121111" />
+
+        <EditText
+            android:id="@+id/txtLab2"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:orientation="horizontal"
+            android:outlineProvider="paddedBounds"
+            android:textColor="#100F0F" />
+
+        <EditText
+            android:id="@+id/txtLab3"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:orientation="horizontal"
+            android:textColor="#090707" />
+
+        <EditText
+            android:id="@+id/txtLab4"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:orientation="horizontal"
+            android:textColor="#121111" />
+
+        <EditText
+            android:id="@+id/txtLab5"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:orientation="horizontal"
+            android:textColor="#070606" />
+
+        <EditText
+            android:id="@+id/txtLab6"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:orientation="horizontal"
+            android:textColor="#050505" />
+
+        <Button
+            android:id="@+id/btnCalcular2"
+            android:layout_width="391dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#4557BC"
+            android:text="Calcular Promedio Labs"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/lblresultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4D5581"
+            android:backgroundTint="#1EDCE3"
+            android:text="Resultado :"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#090909"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtRespuesta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#090808" />
+
+        <TextView
+            android:id="@+id/lblprom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese sus promedios :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtProm1"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#0B0A0A" />
+
+        <EditText
+            android:id="@+id/txtProm2"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#0B0A0A" />
+
+        <Button
+            android:id="@+id/btnPromFinal"
+            android:layout_width="385dp"
+            android:layout_height="36dp"
+            android:backgroundTint="#4557BC"
+            android:text="Ver Promedio Final"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/txtFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="15"
+            android:inputType="numberDecimal"
+            android:textColor="#0E0D0D" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

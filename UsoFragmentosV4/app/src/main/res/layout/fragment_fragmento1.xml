@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.Fragmento1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:gravity="center"
+        android:text="Estas en el contenido del Fragmento 1 "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblRecibido"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#1CDAF3"
+        android:gravity="center"
+        android:text="(recibido de Fragmento2)"
+        android:textSize="24sp" />
+
+</LinearLayout>

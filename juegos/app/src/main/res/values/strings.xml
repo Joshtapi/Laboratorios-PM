@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">juegos</string>
+    <string name="list">Lista de Elementos Escogidos</string>
+    <string name="select">Escoge tus Elementos</string>
+    <string name="elemts">Escoge tus Elementos</string>
+
+</resources>
